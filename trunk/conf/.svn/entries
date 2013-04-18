@@ -1,0 +1,28 @@
+8
+
+dir
+190581
+http://svn.taobao-develop.com/repos/searchAppCodes/RecommenderSystems/trunk/conf
+http://svn.taobao-develop.com/repos/searchAppCodes
+
+
+
+2013-04-10T05:32:16.026817Z
+190581
+yichen.lyh
+
+
+svn:special svn:externals svn:needs-lock
+
+general.conf
+file
+
+
+
+
+2013-04-10T05:22:19.000000Z
+cb9307b31bbaa16e0f6c888a129ef8f5
+2013-04-10T05:32:16.026817Z
+190581
+yichen.lyh
+

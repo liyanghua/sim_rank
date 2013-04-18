@@ -1,0 +1,66 @@
+import os
+
+try:
+    Import('env')
+except:
+    env = Environment()
+Export('env')
+
+
+cur = env.Clone()
+
+
+
+cur.Program('item_based',['./item_based.cpp','./item_base_common.cpp','./util.cpp'])
+cur.Program('sim_rank',['./sim_rank.cpp','./util.cpp'])
+
+# MR for item based recommendation algorithm
+cur.Program('item_based_step1_mapper',['./item_based_step1_mapper.cpp'])
+cur.Program('item_based_step1_reducer',['./item_based_step1_reducer.cpp', 'BaseReducer.cpp'])
+
+cur.Program('item_based_step2_reducer',['./item_based_step2_reducer.cpp', 'BaseReducer.cpp'])
+
+cur.Program('item_based_step4_mapper',['./item_based_step4_mapper.cpp'])
+cur.Program('item_based_step4_reducer',['./item_based_step4_reducer.cpp', 'BaseReducer.cpp'])
+
+cur.Program('item_based_step5_mapper',['./item_based_step5_mapper.cpp'])
+cur.Program('item_based_step5_reducer',['./item_based_step5_reducer.cpp', 'BaseReducer.cpp'])
+
+
+cur.Program('item_based_final_results_reducer',['./item_based_final_results_reducer.cpp', 'BaseReducer.cpp'])
+
+# MR for sim rank
+cur.Program('general_mapper',['./general_mapper.cpp'])
+cur.Program('general_reducer',['./general_reducer.cpp', 'BaseReducer.cpp'])
+
+cur.Program('count_mapper',['./count_mapper.cpp'])
+cur.Program('count_reducer',['./count_reducer.cpp', 'BaseReducer.cpp'])
+
+cur.Program('sim_rank_step1_mapper',['./sim_rank_step1_mapper.cpp'])
+cur.Program('sim_rank_step1_reducer',['./sim_rank_step1_reducer.cpp', 'BaseReducer.cpp'])
+
+cur.Program('sim_rank_step2_mapper',['./sim_rank_step2_mapper.cpp'])
+
+cur.Program('sim_rank_step3_mapper',['./sim_rank_step3_mapper.cpp'])
+cur.Program('sim_rank_step3_reducer',['./sim_rank_step3_reducer.cpp', 'BaseReducer.cpp'])
+
+cur.Program('sim_rank_step4_mapper',['./sim_rank_step4_mapper.cpp'])
+cur.Program('sim_rank_step4_reducer',['./sim_rank_step4_reducer.cpp', 'BaseReducer.cpp'])
+
+cur.Program('sim_rank_step5_mapper',['./sim_rank_step5_mapper.cpp'])
+cur.Program('sim_rank_step5_reducer',['./sim_rank_step5_reducer.cpp', 'BaseReducer.cpp'])
+
+
+cur.Program('query_select_mapper',['./query_select_mapper.cpp'])
+cur.Program('query_select_reducer',['./query_select_reducer.cpp', 'BaseReducer.cpp'])
+
+
+cur.Program('user_click_item_mapper',['./user_click_item_mapper.cpp'])
+cur.Program('user_click_item_reducer',['./user_click_item_reducer.cpp', 'BaseReducer.cpp'])
+
+
+cur.Program('query_doc_click_mapper',['./query_doc_click_mapper.cpp'])
+cur.Program('query_doc_click_reducer',['./query_doc_click_reducer.cpp', 'BaseReducer.cpp'])
+
+
+cur.Program('item_2_item_reducer',['./item_2_item_reducer.cpp', 'BaseReducer.cpp'])

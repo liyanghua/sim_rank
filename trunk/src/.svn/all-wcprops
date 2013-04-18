@@ -1,0 +1,365 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/searchAppCodes/!svn/ver/192582/RecommenderSystems/trunk/src
+END
+item_based_final_results_reducer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/searchAppCodes/!svn/ver/191181/RecommenderSystems/trunk/src/item_based_final_results_reducer.cpp
+END
+export_lib.sh
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/searchAppCodes/!svn/ver/190669/RecommenderSystems/trunk/src/export_lib.sh
+END
+item_base_common.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/searchAppCodes/!svn/ver/190977/RecommenderSystems/trunk/src/item_base_common.cpp
+END
+item_based_step2.sh
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/searchAppCodes/!svn/ver/191028/RecommenderSystems/trunk/src/item_based_step2.sh
+END
+count_reducer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/searchAppCodes/!svn/ver/191537/RecommenderSystems/trunk/src/count_reducer.cpp
+END
+sim_rank.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/searchAppCodes/!svn/ver/191430/RecommenderSystems/trunk/src/sim_rank.cpp
+END
+item_based_step4.sh
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/searchAppCodes/!svn/ver/191092/RecommenderSystems/trunk/src/item_based_step4.sh
+END
+user_click_item_mapper.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/searchAppCodes/!svn/ver/192582/RecommenderSystems/trunk/src/user_click_item_mapper.cpp
+END
+sim_rank_step2.sh
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/searchAppCodes/!svn/ver/191688/RecommenderSystems/trunk/src/sim_rank_step2.sh
+END
+query_doc_click_reducer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/searchAppCodes/!svn/ver/192634/RecommenderSystems/trunk/src/query_doc_click_reducer.cpp
+END
+sim_rank_step4.sh
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/searchAppCodes/!svn/ver/191688/RecommenderSystems/trunk/src/sim_rank_step4.sh
+END
+item_based_step1_mapper.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/searchAppCodes/!svn/ver/192582/RecommenderSystems/trunk/src/item_based_step1_mapper.cpp
+END
+implementation_notes_for_mr_item_based.text
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/searchAppCodes/!svn/ver/191429/RecommenderSystems/trunk/src/implementation_notes_for_mr_item_based.text
+END
+ReadMeSimRank.txt
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/searchAppCodes/!svn/ver/191579/RecommenderSystems/trunk/src/ReadMeSimRank.txt
+END
+count.sh
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/searchAppCodes/!svn/ver/191688/RecommenderSystems/trunk/src/count.sh
+END
+item_based_step5_mapper.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/searchAppCodes/!svn/ver/191181/RecommenderSystems/trunk/src/item_based_step5_mapper.cpp
+END
+general_mapper.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/searchAppCodes/!svn/ver/191436/RecommenderSystems/trunk/src/general_mapper.cpp
+END
+item_based_step1_reducer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/searchAppCodes/!svn/ver/192582/RecommenderSystems/trunk/src/item_based_step1_reducer.cpp
+END
+util.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/searchAppCodes/!svn/ver/191429/RecommenderSystems/trunk/src/util.h
+END
+item_based_step2_reducer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/searchAppCodes/!svn/ver/191028/RecommenderSystems/trunk/src/item_based_step2_reducer.cpp
+END
+sim_rank_step1_mapper.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/searchAppCodes/!svn/ver/192634/RecommenderSystems/trunk/src/sim_rank_step1_mapper.cpp
+END
+BaseReducer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/searchAppCodes/!svn/ver/190581/RecommenderSystems/trunk/src/BaseReducer.cpp
+END
+item_based_step4_reducer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/searchAppCodes/!svn/ver/191146/RecommenderSystems/trunk/src/item_based_step4_reducer.cpp
+END
+sim_rank_step3_mapper.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/searchAppCodes/!svn/ver/191438/RecommenderSystems/trunk/src/sim_rank_step3_mapper.cpp
+END
+item_based_step5_reducer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/searchAppCodes/!svn/ver/191146/RecommenderSystems/trunk/src/item_based_step5_reducer.cpp
+END
+sim_rank_step5_mapper.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/searchAppCodes/!svn/ver/191445/RecommenderSystems/trunk/src/sim_rank_step5_mapper.cpp
+END
+user_click_item.sh
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/searchAppCodes/!svn/ver/192582/RecommenderSystems/trunk/src/user_click_item.sh
+END
+item_based.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/searchAppCodes/!svn/ver/190913/RecommenderSystems/trunk/src/item_based.cpp
+END
+select_fields.sh
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/searchAppCodes/!svn/ver/192582/RecommenderSystems/trunk/src/select_fields.sh
+END
+item_based_step1.sh
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/searchAppCodes/!svn/ver/192003/RecommenderSystems/trunk/src/item_based_step1.sh
+END
+item_based_step3.sh
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/searchAppCodes/!svn/ver/191032/RecommenderSystems/trunk/src/item_based_step3.sh
+END
+query_doc_click_mapper.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/searchAppCodes/!svn/ver/192634/RecommenderSystems/trunk/src/query_doc_click_mapper.cpp
+END
+item_based_step5.sh
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/searchAppCodes/!svn/ver/191182/RecommenderSystems/trunk/src/item_based_step5.sh
+END
+item_base_common.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/searchAppCodes/!svn/ver/190913/RecommenderSystems/trunk/src/item_base_common.h
+END
+general.sh
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/searchAppCodes/!svn/ver/191688/RecommenderSystems/trunk/src/general.sh
+END
+util.sh
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/searchAppCodes/!svn/ver/190581/RecommenderSystems/trunk/src/util.sh
+END
+item_based_step3_mapper.sh
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/searchAppCodes/!svn/ver/191032/RecommenderSystems/trunk/src/item_based_step3_mapper.sh
+END
+SConscript
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/searchAppCodes/!svn/ver/192634/RecommenderSystems/trunk/src/SConscript
+END
+sim_rank_step1.sh
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/searchAppCodes/!svn/ver/191688/RecommenderSystems/trunk/src/sim_rank_step1.sh
+END
+query_select_mapper.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/searchAppCodes/!svn/ver/192634/RecommenderSystems/trunk/src/query_select_mapper.cpp
+END
+sim_rank_step3.sh
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/searchAppCodes/!svn/ver/191688/RecommenderSystems/trunk/src/sim_rank_step3.sh
+END
+user_click_item_reducer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/searchAppCodes/!svn/ver/192582/RecommenderSystems/trunk/src/user_click_item_reducer.cpp
+END
+sim_rank_step5.sh
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/searchAppCodes/!svn/ver/191725/RecommenderSystems/trunk/src/sim_rank_step5.sh
+END
+util.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/searchAppCodes/!svn/ver/191429/RecommenderSystems/trunk/src/util.cpp
+END
+query_select_reducer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/searchAppCodes/!svn/ver/191816/RecommenderSystems/trunk/src/query_select_reducer.cpp
+END
+rs_friend_share_shop.sh
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/searchAppCodes/!svn/ver/191689/RecommenderSystems/trunk/src/rs_friend_share_shop.sh
+END
+item_based_step4_mapper.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/searchAppCodes/!svn/ver/191092/RecommenderSystems/trunk/src/item_based_step4_mapper.cpp
+END
+run_sim_rank.sh
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/searchAppCodes/!svn/ver/192634/RecommenderSystems/trunk/src/run_sim_rank.sh
+END
+sim_rank_step2_mapper.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/searchAppCodes/!svn/ver/191558/RecommenderSystems/trunk/src/sim_rank_step2_mapper.cpp
+END
+init_data.sh
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/searchAppCodes/!svn/ver/191449/RecommenderSystems/trunk/src/init_data.sh
+END
+general_reducer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/searchAppCodes/!svn/ver/192634/RecommenderSystems/trunk/src/general_reducer.cpp
+END
+sim_rank_step4_mapper.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/searchAppCodes/!svn/ver/191725/RecommenderSystems/trunk/src/sim_rank_step4_mapper.cpp
+END
+query_doc_click.sh
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/searchAppCodes/!svn/ver/191670/RecommenderSystems/trunk/src/query_doc_click.sh
+END
+sim_rank_step1_reducer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/searchAppCodes/!svn/ver/192634/RecommenderSystems/trunk/src/sim_rank_step1_reducer.cpp
+END
+BaseReducer.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/searchAppCodes/!svn/ver/190581/RecommenderSystems/trunk/src/BaseReducer.h
+END
+sim_rank_step3_reducer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/searchAppCodes/!svn/ver/191438/RecommenderSystems/trunk/src/sim_rank_step3_reducer.cpp
+END
+sim_rank_step4_reducer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/searchAppCodes/!svn/ver/191444/RecommenderSystems/trunk/src/sim_rank_step4_reducer.cpp
+END
+sim_rank_step5_reducer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/searchAppCodes/!svn/ver/191731/RecommenderSystems/trunk/src/sim_rank_step5_reducer.cpp
+END
+query_select.sh
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/searchAppCodes/!svn/ver/192634/RecommenderSystems/trunk/src/query_select.sh
+END
+count_mapper.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/searchAppCodes/!svn/ver/192634/RecommenderSystems/trunk/src/count_mapper.cpp
+END

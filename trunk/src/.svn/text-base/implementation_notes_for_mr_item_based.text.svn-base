@@ -1,0 +1,36 @@
+1. job1
+INPUT:user_id,item_id,rating
+Mapper: key=user_id, value=item_id
+Reducer: merge the item_list with the same user_id, format:user_id,vector<item_id>
+output: for item in vector<item_id>
+            for item in vector<item_id>
+                emit <item_id, item_id>
+
+2. job2. Compute the item->item co-occur freq   
+INPUT: item_id1, item_id2
+Mapper: key=item_id1,value=item_id2
+Reducer:merge the item_list with the same item_id
+Output: item_id1, item_id2, freq
+
+
+3. job3. Compute the user-rating matrix
+INPUT: user_id,item_id,rating
+Mapper: key=item_id, value=<user_id, rating>
+Reducer: Nothing to do
+
+4. job4. Merge the output from job2 and job3
+INPUT1: item_id1,item_id2,freq
+INPUT2: item_id, user_id, rating
+TMP_OUTPUT: item_id1, item_id2, freq, <item_id1>, user_id, rating # in which the second item_id1 can be ignore
+Final_OUTPUT: item_id1, item_id2, user_id, freq * rating (which denotes P(user_id, item_id2)
+
+5. job5. Output the final recommendations for each user
+INPUT: item_id1, item_id2, user_id, score
+MAPPER: user_id, item_id2, score
+REducer: merge the score with the same user_id, item_id
+OUTPUT: user_id item_id2 sum(score), sort the item_list according to the final score, give the top N recommendations to user
+
+Notice: sim(item1, item2) and contribute(item1, item2, user_rating_for_item1) can be designed as two pluggins
+
+References:
+http://cos.name/2013/04/rhadoop3-rhadoop-mapreduce/

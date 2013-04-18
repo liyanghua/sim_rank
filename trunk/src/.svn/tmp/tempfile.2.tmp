@@ -1,0 +1,79 @@
+#include  "BaseReducer.h"
+
+static const char* TAG_SIM = "S";
+static const char* TAG_ADJ = "A";
+
+<<<<<<< .mine
+
+static const size_t BUF_SIZE = 10000;
+static const size_t MAX_NUM = 10000;
+
+=======
+>>>>>>> .r191558
+class SimRankReducer : public BaseReducer
+{
+    public:
+        virtual bool Flush()
+        {
+            // append the ajs to the sim
+            size_t sz = sim_vec.size();
+            for(size_t i=0; i<sz; ++i)
+            {
+                std::cout << m_preKey << "\t" << sim_vec[i] <<"\t" << adjs << std::endl;
+                
+            }
+            return true;
+        }
+        
+        virtual bool AddLine(const string& value)
+        {
+            if (!value.empty())
+            {
+                vector<string> v = util::split('\t', value);
+                size_t sz = v.size();
+                const string& tag = v[sz - 1];
+                if (tag.compare(TAG_SIM) == 0)
+                {
+<<<<<<< .mine
+                    // format: obj \t tag
+                    const string& sim_obj = v[0];
+                    if (sim_vec.size() <= MAX_NUM)
+                    {
+                        sim_vec.push_back(sim_obj);
+                    }
+=======
+                    sim_vec.push_back(value);
+>>>>>>> .r191558
+                }
+                else if (tag.compare(TAG_ADJ) == 0)
+                {
+                    adjs = value;
+                }
+            }
+            
+            return true;
+        }
+
+        virtual bool Reset()
+        {
+            sim_vec.clear();
+            adjs.clear();
+
+            return true;
+        }
+
+    private:
+        vector<string> sim_vec;
+        string adjs;
+};
+
+
+int main(int argc, char** argv)
+{
+    BaseReducer* br = new SimRankReducer();
+    br->Run();
+
+    delete br;
+
+    return 0;
+}

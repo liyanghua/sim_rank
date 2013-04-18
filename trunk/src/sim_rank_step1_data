@@ -1,0 +1,4 @@
+a	c	0	S	d	A
+a	b	0	S	d	A
+b	c	0	S	d,e	A
+d	e	0	S	b,a	A

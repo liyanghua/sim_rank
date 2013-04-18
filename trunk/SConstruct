@@ -1,0 +1,35 @@
+env = Environment(CCFLAGS='-Wall -g -O2')
+
+base_path="/home/yichen.lyh/Dolphin/trunk/"
+cur_path="/home/yichen.lyh/query_level_app/"
+
+Dolphin_include = base_path+"include/"
+Dolphin_lib_path = base_path + "lib"
+
+cur_inc=cur_path + "include/"
+cur_lib=cur_path + "lib/"
+cur_util=cur_path + "util/"
+
+
+
+all_libs=['AliWS','pthread',"AlgoUtil",'dl', 'alog']
+
+env.Append(LIBS=all_libs);
+
+env.Append(CPPPATH =
+        [
+        Dolphin_include,
+        Dolphin_include + 'algo_framework_interface',
+        Dolphin_include + 'alog',
+        Dolphin_include + 'utility',
+        Dolphin_include + 'mxml',
+        Dolphin_include + 'aliws',
+        cur_inc,
+        cur_util
+        ])
+
+env.Append(LIBPATH = [Dolphin_lib_path, cur_lib])
+
+Export('env')
+
+SConscript(['src/SConscript'])
